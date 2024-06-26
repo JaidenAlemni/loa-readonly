@@ -1,0 +1,3 @@
+This is a repository of the game scripts used in [Legends of Astravia](https://www.astraviagame.com), and has been temporarily made available for reference purposes only. These scripts not intended for free use (for now). Some scripts and blocks of code have been intentionally redacted.
+
+Some of the Game_, Scene_, Window_, Sprite_ etc. scripts are the base scripts for RPG Maker XP and were created by Enterbrain, with some re-written and expanded upon. They've been kept here to make some of the extensions more obvious.

@@ -1,0 +1,207 @@
+!Init
+[XPA] RGSS RPG Module
+Global Module
+Game Setup
+RPGXP Data Extensions
+RGSS Extensions
+Custom RGSS Classes
+Camera Extensions
+Camera Script
+@Base Scripts
+@@Game Classes
+Game_Temp
+Game_System
+Game_Options
+Game_Switches
+Game_Variables
+Game_SelfSwitches
+Game_Screen
+Game_Picture
+Game_Battler 1
+Game_Battler 2
+Game_Battler 3
+Game_BattleAction
+Game_BattleSequence
+Game_Actor
+Game_Enemy
+Game_Actors
+Game_Party
+Game_Troop
+Game_Map
+Game_CommonEvent
+Game_Character 1
+Game_Character 2
+Game_Character 3
+Game_Event
+Game_Player
+Game_Follower
+Game_Busts
+Game_Face
+Game_Pathfinding
+@@
+@@Configuration
+@@@Battle
+BattleConfig
+BattleAnime
+Actor Settings
+Enemy Settings
+Troop Settings
+BattleTarget
+ATB
+EnemyAI
+Battle Conditions
+Essence
+@@@
+@@@System
+Pixel Movement
+Map Config
+Menu Config
+Windows
+Choices
+Localization
+Cutscenes
+Bestiary
+Books
+Quest Data
+Notification
+Dungeon Config
+Custom Routes
+Fogs Lights Pano
+Message
+@@@
+@@
+@@Sprite Classes
+Sprite_Character
+Sprite_Battler
+Sprite_BattleFace
+Sprite_Weapon
+Sprite_ATB
+Sprite_Picture
+Sprite_Face
+Sprite_Timer
+Sprite_VolumeSlider
+Sprite_TextAdvance
+Sprite_ScreenText
+Sprite_Damage
+Sprite_MapName
+Sprite_MoveAnime
+Sprite_BestiaryEnemy
+Spriteset_Map
+Spriteset_Battle
+Spriteset_Cutscene
+@@
+@@Window Classes
+@@@01 Global
+Window_Base
+Window_Selectable
+Window_Command
+Window_Help
+Window_SuperHelp
+Window_Controls
+@@@
+@@@02 System
+Window_Confirm
+Window_NameEdit
+Window_NameInput
+Window_SaveFile
+Window_Options
+Window_SystemModal
+@@@
+@@@03 Menus
+Menu Windows
+Item Windows
+Essence Windows
+Equip Windows
+Status Windows
+Journal Windows
+Quest Windows
+Book Windows
+Bestiary Windows
+Shop Windows
+Party Windows
+@@@
+@@@04 Battle
+Window_BattleStatus
+Window_BattleSkill
+Window_BattleItem
+Window_BattleLog
+Window_BattleHelp
+Window_BattleTarget
+Window_BattlePop
+Results Windows
+ABXY_Menu
+Arrow_Classes
+ATB_Bar
+@@@
+@@@05 Other
+Window_Gold
+Window_InputNumber
+Window_Notification
+Title_Command_Menu
+@@@
+@@
+@@Interpreter
+Interpreter 1
+Interpreter 2
+Interpreter 3
+Interpreter 4
+Interpreter 5
+Interpreter 6
+Interpreter 7
+Interpreter 8
+@@
+@@Scenes
+Scene_Base
+Scene_Test
+Scene_Map
+Scene_Cutscene
+Scene_Title
+Scene_Menu
+Scene_Item
+Scene_Equip
+Scene_Status
+Scene_Journal
+Scene_Quest
+Scene_Book
+Scene_Bestiary
+Scene_Options
+Scene_SaveLoad
+Scene_End
+Scene_Battle 1
+Scene_Battle 2
+Scene_Battle 3
+Scene_Battle 4
+Scene_Shop
+Scene Recipes
+Scene Party
+Scene_Name
+Scene Essence
+Scene Blacksmith
+Scene_Gameover
+Scene_Victory
+Scene_Debug
+@@
+@
+@Other Scripts
+GameUtil
+Unlimited Battle Conditions
+Battle Tutorial
+Message System
+Unlimited Page Conditions
+Push Blocks
+Title Credits
+Timed Input
+Debug System
+Screen Debugger
+Reload Data - Blizz
+Clone Events
+Event Proximity
+GIF Animations
+SaveDump
+Battle Sprite Debug
+Game Logger
+CSV Database Import
+GOGR - Mithran
+Blizz-ABSEAL
+@
+[XPA] Main

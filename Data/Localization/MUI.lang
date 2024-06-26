@@ -1,0 +1,703 @@
+key,en_us,jp
+# System,,
+Title,Legends of Astravia,Legends of Astravia
+TitleDemo,Legends of Astravia - Demo,Legends of Astravia - Demo
+Yes,Yes,はい
+No,No,いいえ
+Confirm,Confirm,決定
+Cancel,Cancel,キャンセル
+Back,Back,戻る
+GameExitConfirm,Are you sure? Data will not be saved.,データはセーブされません。本当によろしいですか？
+GameUpdateAlert,The game has been updated to !V,ゲームが!Vにアップデートされました
+GameUpdateMajor,"For more information and a list of changes, please check the developer's log on studioalemni.com/news.",詳細と変更点の一覧は、studioalemni.com/newsで公開されている開発日誌でご確認いただけます。
+GameControllerAlert,"The following controller was detected: \n\n!N\n\nAre you using this controller, or a keyboard? Either can be used at any time, but selecting [Keyboard] will ensure instructions are displayed for keyboard input.",以下のコントローラーを検知しました：\n\n!N\n\nこのコントローラーとキーボードのどちらを使用しますか？操作方法は好きなタイミングで切り替え可能ですが、[キーボード]を選択することで、キーボードの操作方法を確実に表示することができます。
+GameControllerAlertChoice0,Controller,コントローラー
+GameControllerAlertChoice1,Keyboard,キーボード
+GameControllerAlertReturn0,"If you wish to display keyboard prompts instead,\nyou can change it at any time in the Options menu.",キーボードの操作方法を表示したい場合、\nオプションメニューからいつでも変更が可能です。
+GameControllerAlertReturn1,Instructions will display for keyboard input.\nThis can be changed any time in the Options menu.,操作方法はキーボードの入力で表示されます。\nこれはオプションメニューからいつでも変更が可能です。
+GameCriticalError,The game encountered a critical error and needs to close. The game's log folder and optional bug report form will now open in your web browser.,致命的な問題が発生したため、ゲームを終了する必要があります。ゲームのログフォルダ、および任意回答のバグ報告フォームがブラウザで開かれます。
+GameClose,The game will now close.,ゲームを終了します。
+CommandOK,OK,OK
+CommandWebsite,Check Website,ウェブサイトを確認する
+GameCreditsWeb,This will open a web browser.,この操作ではウェブブラウザが開かれます。
+# World Exploration,,
+ExploreLockedDoor,It looks like I need a key to open this...,これを開けるには鍵がいるようだ…
+ExploreWrongKey,The key I have doesn't seem to fit this lock...,この鍵は鍵穴と合わないようだ…
+ExploreEmptyChest,It's empty!,何も入っていない！
+ExploreOutOfReach,I can't get to it!,手が届かない！
+ExploreStuck,It won't budge...,びくともしない…
+ExploreUnlockableDoor,It's locked.,開かない。
+ExploreNothing1,Nothing interesting.,これといって目を引くものはない。
+ExploreNothing2,Only cobwebs and dust in here.,あるのはクモの巣とほこりだけだ。
+ExploreNothing3,There are likely useful things...elsewhere.,役に立ちそうなものが入っている…\nのはどこなのだろう。
+ExploreNothing4,It would be a waste to look further here.,これ以上調べても時間の無駄だ。
+ExploreNothing5,No useful items to be found.,役立ちそうなものは何もない。
+ExploreGet,\P[0]Found !N!,\P[0]!Nを見つけた！
+ExploreChestGet,You find:\n,アイテムを発見した。\n
+ExploreSuffixEssence, Essence,・エッセンス
+PartyJoin,!N joined your party!,!Nが仲間に加わった！
+LeftParty,!N is no longer traveling with you.,!Nが離脱した。
+# Title commands,,
+TitleNewGame,New Game,New Game
+TitleContinue,Continue,Continue
+TitleOptions,Options,Options
+TitleCredits,Credits,Credits
+TitleExitGame,Exit Game,Exit Game
+TitleControls,Rebind Controls,操作の割り当て変更
+TitleFullscreen,Toggle Fullscreen,フルスクリーン切り替え
+ToTitle,To Title,To Title
+# Input constants,,
+InputC,Confirm,決定
+InputB,Cancel,キャンセル
+InputA,Previous Character,前のキャラクター
+InputZ,Next Character,次のキャラクター
+InputL-Menu,Page Back,ページを戻る
+InputR-Menu,Page Forward,ページを進む
+InputL-Battle,Slower,減速
+InputR-Battle,Faster,加速
+InputX-Menu,Show Details,詳細を表示
+InputX-Battle,Skill,スキル
+InputY-Battle,Item,アイテム
+InputC-Battle,Attack,攻撃
+InputB-Battle,Defend,防御
+Input-SwitchChar,Switch,切り替え
+InputStart,Pause,ポーズ
+InputHold-Active,Defense,防御
+InputHold-Inactive,Ready,戦闘態勢
+InputBattleAction,Attack / Skill / Item,攻撃/スキル/アイテム
+InputSort,Sort,並べ替え
+InputSkills,Skills,スキル
+InputCursorMove,Move Cursor,カーソルの移動
+# Battle Related,,
+ActionSpell,Spell,呪文
+ActionAbility,Ability,アビリティ
+BattleActDetailDead,Collapsed,瀕死
+BattleActDetailWait,Waiting...,待機中…
+BattleActCommitAttack,!N is preparing an attack...,!Nは攻撃を仕掛けようとしている…
+BattleActCommitGuard,!N is preparing to guard...,!Nは防御しようとしている…
+BattleActCommitEscape,!N is preparing to escape..,!Nは逃走しようとしている…
+BattleActCommitNone,!N does nothing...,!Nは何もしていない…
+BattleActCommitUnleash,!N is glowing with fierce energy...,!Nは怒りの力で輝きを放っている…
+BattleActCommitMagic,!N is casting a spell...,!Nは呪文を念唱しようとしている…
+BattleActCommitAbility,!N is using an ability...,!Nはアビリティを使おうとしている…
+BattleActCommitSkill,!N is using a skill...,!Nはスキルを使おうとしている…
+BattleActCommitItem,!N is using a !A...,!Nは!Aを使おうとしている…
+BattleActVerbAttack,Basic Attack,通常攻撃
+BattleActVerbGuard,Guard,防御
+BattleActVerbEscape,Escaped!,逃げ出した！
+BattleActVerbNone,Doing nothing...,何もしていない…
+BattleActVerbMagic,!A,!A
+BattleActVerbUnleash,!A,!A
+BattleActVerbAbility,!A,!A
+BattleActVerbSkill,!A,!A
+BattleActVerbItem,!A,!A
+BattleActDetailAttack,Attacking,攻撃中
+BattleActDetailGuard,Guarding,防御中
+BattleActDetailEscape,Escaping,逃走中
+BattleActDetailNone,Idle,待機中
+BattleActDetailUnleash,Unleashing !A,!Aを解放中
+BattleActDetailMagic,Casting !A,!Aを念唱中
+BattleActDetailAbility,Preparing !A,!Aを準備中
+BattleActDetailSkill,Preparing !A,!Aを準備中
+BattleActDetailItem,Using !A,!Aを使用中
+BattleActFailSkill,!N can no longer use this skill...,!Nはもうこのスキルを使えない…
+BattleActFailItem,!N can no longer use this item...,!Nはもうこのアイテムを使えない…
+BattleComAttack,Attack,攻撃
+BattleComHold,Defend,防御
+BattleComResume,Ready,戦闘体勢
+BattleComItem,Item,アイテム
+BattleComSkill,Skill,スキル
+BattleActResume,Resumed Battle,戦闘体勢に戻った
+BattleActEnemyDefend,Guard,防御している
+BattleActEnemyResume,Stopped Guard,防御を崩した
+EscapeCrystalWarn,The crystal needs time... !N seconds left!,水晶が使用可能になるまで…あと!N秒！
+BattlePaused,- PAUSED -,- PAUSED -
+BattleChooseAction,Choose an action.,アクションを選択してください。
+BattleChooseTarget,Choose a target.,ターゲットを選択してください。
+BattleMiss,MISS!,MISS!
+BattleEvade,EVADE!,回避！
+BattleCrit,CRITICAL!,CRITICAL!
+BattleEscaped,Escaped!,逃げ出した！
+BattleEscapeFail,Failed to Escape...,逃亡に失敗した…
+BattleAmbush,Ambushed!,不意をつかれた！
+BattlePreemptive,Got the upper hand!,先手を取った！
+BattleTarget,Target,TARGET
+BattleBarCommand,CHOOSE A COMMAND,CHOOSE A COMMAND
+BattleBarPrepare,PREPARE,PREPARE
+BattleBarCommit,COMMITTED,COMMITTED
+BattleBarAction,ACTION!,ACTION!
+# Main menu commands,,
+MainMenuCom0,Items,アイテム
+MainMenuCom1,Essence,エッセンス
+MainMenuCom2,Equipment,装備
+MainMenuCom3,Status,キャラクター
+MainMenuCom4,Journal,ジャーナル
+MainMenuCom5,Party,仲間
+MainMenuCom6,Memories,記憶
+MainMenuCom7,Options,設定
+MainMenuCom8,Quit Game,ゲーム終了
+# Main menu DESCRIPTIONS,,
+MainMenuDesc0,View obtained items and use them to restore a party member's status.,獲得したｱｲﾃﾑの閲覧、および使用して仲間のｽﾃｰﾀｽを回復させることができます。
+MainMenuDesc1,"Change a party member's Essence, and view skills and spells.",仲間のエッセンスの変更、およびスキルと呪文を閲覧できます。
+MainMenuDesc2,Change a party member's equipment.,仲間の装備を変更できます。
+MainMenuDesc3,View party members' stats and details.,仲間の能力値や詳細を閲覧できます。
+MainMenuDesc4,"View gameplay stats, quests, books, or the enemy bestiary.",ゲームプレイの統計、クエスト、本、敵図鑑を閲覧できます。
+MainMenuDesc5,Set active party members for battle.,戦闘に参加する仲間を変更することができます。
+MainMenuDesc6,Save your progress by recording the current memory or load an existing one.,現在の記憶を保存して進行状況をｾｰﾌﾞしたり、既存のｾｰﾌﾞﾃﾞｰﾀをﾛｰﾄﾞすることができます。
+MainMenuDesc7,"Change various game options such as sound levels, battle speed, and controls.",音量、戦闘速度、および操作方法など様々なオプションを選択できます。
+MainMenuDesc8,Quit the game without saving.,セーブせずにゲームを終了します。
+# Item menu commands,,
+ItemsMenuCom0,Consumables,消耗品
+ItemsMenuCom1,Materials,素材
+ItemsMenuCom2,Key Items,重要アイテム
+# Item menu descriptions,,
+ItemsMenuDesc0,"Items that can be consumed for recovery, enhancement, and other purposes.",回復、強化などで消費されるアイテム。
+ItemsMenuDesc1,Items that can be sold for Silver or used to craft.,銀貨と引き換えに売却、およびクラフトに使用できるアイテム。
+ItemsMenuDesc2,Important items that cannot be used or sold.,使用、および売却できない重要なアイテム。
+# Essence - Equipment - Status,,
+ActorMenuDesc0,Select a party member.,仲間を選択してください。
+EssenceMenuDesc0,Select a party member.,仲間を選択してください。
+EssenceMenuDesc1,Select a party member.,仲間を選択してください。
+EquipmentMenuDesc0,Select a party member.,仲間を選択してください。
+EquipmentMenuDesc1,Select a party member.,仲間を選択してください。
+StatusMenuDesc0,Select a party member.,仲間を選択してください。
+StatusMenuDesc1,Select a party member.,仲間を選択してください。
+# Status (extra menu),,
+StatusMenuCom0,,
+StatusMenuCom1,,
+StatusMenuCom2,,
+# Stat descriptions,,
+StatDesc0,The base damage for standard attacks.,通常攻撃の基準値となるダメージ。
+StatDesc1,,
+StatDesc2,The capacity to block physical-type attacks and abilities.,物理攻撃とアビリティに対する防御力。
+StatDesc3,The capacity to resist mystic-type attacks and spells.,秘術攻撃と呪文に対する防御力。
+StatDesc4,Increases ability charge speed and physical-type damage.,アビリティのチャージ速度と物理ダメージを上昇させる。
+StatDesc5,Increases spell charge speed and mystic-type damage.,呪文のチャージ速度と秘術ダメージを上昇させる。
+StatDesc6,Increases battle action speed and the likelihood of evasion and escape.,戦闘行動速度と回避率、逃走確率を上昇させる。
+StatDesc7,A mysterious trait that gives the user an advantage over random chance.,不確定の確率が自分の有利に運ぶようになる謎めいた特性。
+# Actor Stories ,,
+ActorDesc1,"A mystician looking for answers about his past life.  After waking up lost and alone in Mordin Forest, !N was taken in by Baldric and Lina Hammerfeld to recover in the village.  A few weeks later, after meeting the mysterious Azel and the realization that magic comes naturally to him, !N began questioning his origins and aims to seek out answers in the far-east city of Anatas.\n\n!N is a well-rounded combatant, with a propensity for magic.",自分の過去を究明する秘術師。モルデンの森で迷い、独り目覚めた!Nは、ボルドリックとリナのハンマーフェルド夫妻に発見されて村へ運ばれ、傷が癒えるまで居つくこととなった。数週間後、謎の人物「アゼル」と出会いにより、自分の体と魔法が馴染み深いことに気がつく。!Nは自身の正体に疑問を抱き始め、遠く東に位置する都市「アンアタス」で答えを探すことを決意する。\n\n!Nはバランスの取れた戦士であり、魔法に適性がある。
+ActorDesc2,,
+ActorDesc3,,
+ActorDesc4,,
+ActorDesc5,"A man shrouded in mystery.  Azel has little to say about his own objectives, and prefers to keep conversations short.  !N briefly met Azel in the fields outside of Mordin Village, but their encounter did not last long before the two needed to part ways. However, as they meet once again in the Earth Leyline, it seems the two are destined to cross paths...\n\nAzel is a powerful magic user, but he does not fair well against physical threats.",謎につつまれた男。アゼルは自身の目的を明かそうとせず、長話を好まない。!Nはモルデン村の郊外にある平野で、アゼルと少しだけ顔を合わせたものの、2人の邂逅はすぐに断ち切れることとなる。\nしかし、その後ふたたび「地の秘力路」で再会することとなった。2人の旅路は交差することが運命づけられているのかもしれない…\n\nアゼルは強力な魔法の使い手であるが、物理的な脅威への対処は苦手とする。
+ActorDesc6,,
+ActorDesc7,,
+ActorDesc8,,
+ActorDesc9,,
+# Journal,,
+JournalMenuCom0,,
+JournalMenuCom1,,
+JournalMenuCom2,,
+# Journal descriptions,,
+JournalMenuDesc0,,
+JournalMenuDesc1,,
+JournalMenuDesc2,,
+# Journal submenus,,
+# Party,,
+PartyMenuCom0,,
+# Party Descriptions,,
+PartyMenuDesc0,,
+# Save commands,,
+MemoriesMenuCom0,Save,セーブ
+MemoriesMenuCom1,Recall,想起
+MemoriesMenuCom2,Erase,消去
+# Save descriptions,,
+MemoriesMenuDesc0,Select a file to record progress. Warning: File will be overwritten.,進行状況を保存するﾌｧｲﾙを選択してください。注意：選択したﾌｧｲﾙは上書きされます。
+MemoriesMenuDesc1,Select a file to restore progress. Warning: Current game will not be saved.,進行状況を復元するﾌｧｲﾙを選択してください。注意：現在の進行状況は保存されません。
+MemoriesMenuDesc1a,Select a file to restore progress. ,進行状況を復元するファイルを選択してください。
+MemoriesMenuDesc2,Select a file to erase.,消去するファイルを選択してください。
+SaveFile,File ,ファイル
+SaveDeleteWarn,This process is irreversable! Proceed?,消去したファイルは復元できません！よろしいですか？
+SaveConfirm,Saved successfully!,保存が完了しました！
+# Option menu commands,,
+OptionsMenuCom0,Gameplay,ゲームプレイ
+OptionsMenuCom1,System,システム
+OptionsMenuCom2,Display,表示
+OptionsSystemCom0,BGM Volume,BGM音量
+OptionsSystemCom1,BGS Volume,BGS音量
+OptionsSystemCom2,SFX Volume,SE音量
+OptionsSystemCom3,Text Speed,テキストの表示速度
+OptionsSystemCom4,Text Sounds,テキストの効果音
+OptionsSystemCom5,Language,言語
+OptionsSystemCom6,Font Style,フォントのスタイル
+OptionsDisplayCom0,Fullscreen,フルスクリーン
+OptionsDisplayCom1,Scaling,スケーリング
+OptionsDisplayCom2,Vsync*,垂直同期*
+OptionsDisplayCom3,Window Animations,ウィンドウアニメーション
+OptionsDisplayCom4,Battle Camera,戦闘時のカメラ
+OptionsDisplayCom5,Screen Flash,画面の点滅
+OptionsDisplayCom6,Screen Shake,画面の振動
+OptionsGameplayCom0,Battle Speed,戦闘の速度
+OptionsGameplayCom1,Battle List Speed,戦闘中のリスト表示時の速度
+OptionsGameplayCom2,Battle Defend Mode,戦闘防御モード
+OptionsGameplayCom3,Input Mode,入力モード
+OptionsGameplayCom4,View Control Info.,操作方法の表示
+OptionsGameplayCom5,Give Feedback,フィードバックの提出
+OptionsGameplayCom6,Battle Difficulty,戦闘の難易度
+# Option menu labels,,
+OptionsGameplay00,Slower,超低速
+OptionsGameplay01,Slow,低速
+OptionsGameplay02,Default,デフォルト
+OptionsGameplay03,Fast,高速
+OptionsGameplay04,Faster,超高速
+OptionsGameplay10,Slowed,低速
+OptionsGameplay11,Default,デフォルト
+OptionsGameplay20,Toggle,トグル
+OptionsGameplay21,Hold,長押し
+OptionsGameplay30,Keyboard,キーボード
+OptionsGameplay31,Controller,コントローラー
+OptionsGameplay40,Show,表示する
+OptionsGameplay50,Go to Form,フォームを開く
+OptionsGameplay60,Casual,カジュアル
+OptionsGameplay61,Standard,スタンダード
+OptionsGameplay62,Challenging,ハード
+OptionsSystem30,Slow,低速
+OptionsSystem31,Average,普通
+OptionsSystem32,Fast,高速
+OptionsSystem40,On,ON
+OptionsSystem41,Off,OFF
+OptionsSystem50,English,English
+OptionsSystem51,日本語,日本語
+OptionsSystem60,Modern,モダン
+OptionsSystem61,Retro,レトロ
+OptionsDisplay00,On,ON
+OptionsDisplay01,Off,OFF
+OptionsDisplay10,Pixel Perfect,ピクセルパーフェクト
+OptionsDisplay11,Smooth,スムーズ
+OptionsDisplay12,Sharp,シャープ
+OptionsDisplay20,On,ON
+OptionsDisplay21,Off,OFF
+OptionsDisplay30,On,ON
+OptionsDisplay31,Off,OFF
+OptionsDisplay40,On,ON
+OptionsDisplay41,Off,OFF
+OptionsDisplay50,On,ON
+OptionsDisplay51,Off,OFF
+OptionsDisplay60,On,ON
+OptionsDisplay61,Off,OFF
+# Descriptions for each option value index,,
+OptionsMenuDesc0,Options related to gameplay and difficulty.,ゲームプレイの難易度に関するオプションです。
+OptionsMenuDesc1,"Global options, such as volume and language control.",音量や言語の選択などの全般的なオプションです。
+OptionsMenuDesc2,Options that affect game visuals.,ゲームのビジュアルに影響するオプションです。
+OptionsGameplayDesc00,Change how fast battle progresses.,戦闘が進行する速度を変更します。
+OptionsGameplayDesc01,Change how fast battle progresses.,戦闘が進行する速度を変更します。
+OptionsGameplayDesc02,Change how fast battle progresses.,戦闘が進行する速度を変更します。
+OptionsGameplayDesc03,Change how fast battle progresses.,戦闘が進行する速度を変更します。
+OptionsGameplayDesc04,Change how fast battle progresses.,戦闘が進行する速度を変更します。
+OptionsGameplayDesc10,Battle slows down when in a Skill or Item list.,戦闘中にスキル、またはアイテムリストを表示するとスローモーションが発生します。
+OptionsGameplayDesc11,Battle speed does not change when in a Skill or Item list.,戦闘中にスキル、またはアイテムリストを表示しても、速度は変更されません。
+OptionsGameplayDesc20,Press the defend button to toggle party defend mode on and off.,防御ボタンを押すことで、すべての仲間を防御モードに切り替えることができます。
+OptionsGameplayDesc21,"Hold the defend button to enable party defense,\nand release to disable party defense.",防御ボタンを長押しすることですべての仲間を防御させ、\nボタンを放すと防御が解除されます。
+OptionsGameplayDesc30,Display keyboard prompts even if a controller is detected.,コントローラーが検知されていてもキーボードの操作方法を表示します。
+OptionsGameplayDesc31,Automatically display controller prompts for the detected controller type.,検知されたコントローラーの種類に合わせて操作方法を表示します。
+OptionsGameplayDesc40,Show the game controls.,ゲームの操作方法を表示します。
+OptionsGameplayDesc50,Fill out a form to provide feedback on the game.,フォームに記入して、本作のフィードバックをお聞かせください。
+OptionsGameplayDesc60,"A more laid back, no-pressure experience.\nFor those who just want to enjoy the story and explore with minimal battles.",肩の力を抜いて楽しめる、プレッシャーのかからないゲーム体験です。\n戦闘は最低限で、探索やストーリーをただ楽しむことが目的の方にオススメ。
+OptionsGameplayDesc61,"The ""default"" game experience as designed.\nSomewhat challenging, but fair.",ゲームのデザインそのままの「デフォルト」な体験です。\n歯ごたえはありつつも、理不尽な難易度ではありません。
+OptionsGameplayDesc62,A more difficult experience. Enemies hit harder and battles take longer.\nFor those who enjoy the thrill of combat.,高難易度のゲーム体験です。敵の攻撃は強くなり、戦闘にかかる時間は長くなります。\n戦闘のスリルを楽しめる方にオススメ。
+OptionsSystemDesc00,Adjust the background music volume.,BGMの音量を調整します。
+OptionsSystemDesc10,Adjust the background sounds volume.,BGSの音量を調整します。
+OptionsSystemDesc20,Adjust the sound effects volume.,SEの音量を調整します。
+OptionsSystemDesc30,Change the letter-by-letter speed in text boxes.,ダイアログの文字の表示速度を変更します。
+OptionsSystemDesc31,Change the letter-by-letter speed in text boxes.,ダイアログの文字の表示速度を変更します。
+OptionsSystemDesc32,Change the letter-by-letter speed in text boxes.,ダイアログの文字の表示速度を変更します。
+OptionsSystemDesc40,Toggle the message sounds.,メッセージの効果音を有効化します。
+OptionsSystemDesc41,Toggle the message sounds.,メッセージの効果音を有効化します。
+OptionsSystemDesc50,Change the game language.,ゲームの言語を変更します。
+OptionsSystemDesc51,Change the game language.,ゲームの言語を変更します。
+OptionsSystemDesc60,Modernized look for easier readability. This is the recommended setting.,可読性に優れた現代的なフォントです。推奨設定はこちらです。
+OptionsSystemDesc61,For a more nostalgic experience.\n(Warning: Experimental. May cause some visual errors.),よりノスタルジーな体験を求める方にオススメ。（注意：このオプションは開発中です。\nグラフィック関連のバグを発生させる可能性があります。）
+OptionsDisplayDesc00,The game starts in fullscreen mode.\n(Can also be toggled at any time by pressing [Alt] + [Enter]),ゲームがフルスクリーンモードで起動します。\n（[Alt] + [Enter]を押すことでいつでも切り替えることが可能です）
+OptionsDisplayDesc01,The game starts in windowed mode.\n(Can also be toggled at any time by pressing [Alt] + [Enter]),ゲームがウィンドウモードで起動します。\n（[Alt] + [Enter]を押すことでいつでも切り替えることが可能です）
+OptionsDisplayDesc10,"Forces the game screen ratio to always be 'Pixel Perfect'.\nIf the current screen ratio does not match, the game will remain at the next smallest size.",常時「ピクセルパーフェクト」な画面比率を強制的に維持します。\n現時点での画面比率が適合しない場合、ゲームはその次に小さなサイズを維持します。
+OptionsDisplayDesc11,Use smooth scaling (Bilinear). Useful for unusual screen sizes.\nMakes UI elements smoother at the cost of some blurriness.,スムーズスケーリング（バイリニア）を使用します。\n特殊なサイズのモニターを使用している場合に便利です。\nUIエレメントをスムーズに表示しますが、若干ぼやけてしまいます。
+OptionsDisplayDesc12,"Allows the game screen to be any size, but does not apply any smoothing.\nCrisper UI elements, but overall much ""blockier"" than [Pixel Perfect].",ゲーム画面を任意のサイズに変更可能にし、ｽﾑｰｼﾞﾝｸﾞ処理は適用しません。UIｴﾚﾒﾝﾄが\nｸｯｷﾘと表示されますが、全体的に[ﾋﾟｸｾﾙﾊﾟｰﾌｪｸﾄ]よりも「カクついた」印象になります。
+OptionsDisplayDesc20,Synchronizes the game's frame rate with your monitor.\nTry enabling this if the game appears to look 'glitchy' while fullscreened.,ゲームのフレームレートをお使いのモニターと同期させます。\nフルスクリーン時に「バグっている」ように見える場合はこれを有効化してください。
+OptionsDisplayDesc21,Synchronizes the game's frame rate with your monitor.\nTry enabling this if the game appears to look 'glitchy' while fullscreened.,ゲームのフレームレートをお使いのモニターと同期させます。\nフルスクリーン時に「バグっている」ように見える場合はこれを有効化してください。
+OptionsDisplayDesc30,Windows appear and disappear with a sliding animation.,画面はスライドアニメーション付きで表示/非表示されます。
+OptionsDisplayDesc31,Windows fade in and out.\nNote: May cause minor visual glitches in some places.,画面はフェイドイン/フェイドアウトします。\n注意：一部のエリアで表示に小規模なバグが発生する可能性があります。
+OptionsDisplayDesc40,Camera moves around in battle.,戦闘中、カメラが周囲を回転します。
+OptionsDisplayDesc41,Camera stays centered in battle and does not move.,戦闘中、カメラは中心部に留まったまま移動しません。
+OptionsDisplayDesc50,Screen flash effects will display.,画面の点滅エフェクトが表示されます。
+OptionsDisplayDesc51,Screen flash effects will be supressed.,画面の点滅エフェクトが控えめになります。
+OptionsDisplayDesc60,Screen shaking effects will display.,画面の振動エフェクトが表示されます。
+OptionsDisplayDesc61,Screen shaking effects will be supressed.,画面の振動エフェクトが控えめになります。
+OptionsRebindWarning,"Demo only: To use the temporary key rebinding menu, press the [F1] key.\nPlease note that it will not yet change the control instructions in menus.",体験版限定：[F1]キーを押すと一時的なキー割り当てメニューが開きます。\n変更はメニュー内の操作方法には反映されませんのでご注意ください。
+OptionsRestartWarning,Note: Options indicated with a * will not take effect until restarting the game.,注意：* が付いているオプションは、ゲームを再起動するまで反映されません。
+# Name Menu,,
+# Menu Terminology,,
+EquipHeadgear,Headgear,頭部
+EquipArmor,Armor,防具
+EquipWeapon,Weapon,武器
+EquipGloves,Gloves,グローブ
+EquipAccessory1,Accessory,アクセサリー
+EquipAccessory2,Ring,指輪
+StatusStory,Story,ストーリー
+StatusAwakening,Awakening Skills,解放スキル
+StatusNotUnlocked,[Not Unlocked],[未解放]
+StatLifeEnergy,Life Energy,体力
+StatMysEnergy,Mystic Energy,秘力
+StatUnleash,Unleash,解放
+EssenceSlotsAvailable,Available Slots,空スロット
+NoData,[No Data],[データなし]
+EssenceUnlockedSkills,Unlocked Skills,アンロックされたスキル
+EssenceOtherEffects,Other Effects,その他の効果
+EssenceMoveConfirm,"!O is holding this essence, \nequip it to !N instead?",このｴｯｾﾝｽは!Oが装備しています。!Nに付け替えますか？
+EssenceAll,All Essence,すべてのエッセンス
+EssenceMember,!N's Essence,!Nのエッセンス
+EssenceSlots,Essence Slots,エッセンススロット
+EssenceMaxLevel,Level MAX,レベルMAX
+EssenceSlot,Slot,SLOT
+EssenceTitleActive,Active Essence,装備中のエッセンス
+EssenceActiveDesc,Essence that provide usable skills and abilities in battle. Only !N unique types may be held at a time.,戦闘中に使用可能なｽｷﾙやｱﾋﾞﾘﾃｨを付与するｴｯｾﾝｽです。\n同時に装備できるのは!N種類のｴｯｾﾝｽのみです。
+EssenceTypeActive,[Active],[アクティブ]
+EssenceTypePassive,[Passive],[パッシブ]
+EssenceEquipError1,Essence not equipable!,装備不可能なエッセンスです！
+EssenceEquipError2,No more essence slots available!,エッセンススロットに空きがありません！
+EssenceEquipError3,Essence already at max level!,このエッセンスはすでにレベルMAXです！
+EssenceEquipError4,Maximum number of active essence already equipped!,これ以上同時にエッセンスを装備できません！
+LEFull,Life Energy,体力
+LEShort,Life En.,体力
+LEMini,LE,体力
+MEFull,Mystic Energy,秘力
+MEShort,Mystic En.,秘力
+MEMini,ME,秘力
+NoItems,[No Items],[アイテムなし]
+Silver,Silver,銀貨
+Level,Level,レベル
+NextLevel,Next Level:,Next Level:
+ShopMenuCom0,Buy,購入
+ShopMenuCom1,Sell,売却
+ShopMenuCom2,Equip,装備
+ShopMenuCom3,Exit,終了
+ShopMenuDesc0,"View items, weapons, armor or essence that the shop has for sale.",店が販売しているアイテム、武器、防具、エッセンスを閲覧します。
+ShopMenuDesc1,"Sell items, weapons, armor or essence that you've acquired to the shop.",所持しているアイテム、武器、防具、エッセンスを店へ売却できます。
+ShopMenuDesc2,Go to the equipment screen to manage party member's equipment.,装備画面を開いて、仲間の装備を変更することができます。
+ShopMenuDesc3,Exit the shop.,売買を終了します。
+ShopOwned,Have:,所有数：
+ShopStatusAdd,Applies States:,状態効果を付与：
+ShopStatusRemove,Removes States:,状態効果を除去：
+ShopStatusResist,Resists States:,状態効果への耐性：
+ShopElement,Element,エレメント
+ShopCategory0,For Sale,販売中
+ShopCategory1,Party's Items,仲間のアイテム
+ShopCategory2,Party's Weapons,仲間の武器
+ShopCategory3,Party's Armors,仲間の防具
+ShopCategory4,Party's Essence,仲間のエッセンス
+ShopBuyPrompt,How many would you like to buy?,いくつ購入しますか？
+ShopSellPrompt,How many would you like to sell?,いくつ売却しますか？
+# Actors,,
+Actor1,Oliver,オリバー
+Actor5,Azel,アゼル
+# Stats,,
+ATK,Power,筋力
+LUK,Luck,運
+STR,Luck,運
+INT,Focus,集中力
+DEX,Aptitude,才覚
+AGI,Swiftness,敏捷性
+PDEF,Endurance,耐久力
+MDEF,Willpower,意志力
+# Class names,,
+Class1,Mystician,秘術師
+Class5,Order Mystician,双影ノ団の秘術師
+# Item Names (By ID),,
+Item1,Bandage,包帯
+Item3,Mordin Mushroom,モルデンダケ
+Item4,Mordin Apple,モルデンリンゴ
+Item8,Goat's Cheese,ヤギ乳のチーズ
+Item9,Bottled Milk,瓶入りミルク
+Item18,Basic Life Potion,回復ポーション（I）
+Item19,Basic Mystic Potion,秘術ポーション（I）
+Item20,Int. Life Potion,回復ポーション（II）
+Item21,Int. Mystic Potion,秘術ポーション（II）
+Item22,Adv. Life Potion,回復ポーション（III）
+Item23,Adv. Mystic Potion,秘術ポーション（III）
+Item24,Arcane Life Potion,回復ポーション（IV）
+Item25,Arcane Mystic Potion,秘術ポーション（IV）
+Item30,Phoenix Feather,不死鳥の羽
+Item31,Plant Poison,除草剤
+Item50,Thyme,タイム
+Item51,Mint,ミント
+Item52,Beetroot,ビートルート
+Item53,Clover,クローバー
+Item54,Sage,セージ
+Item55,Rosemary,ローズマリー
+Item56,Chamomile,カモミール
+Item70,Essence Shard,エッセンスの断片
+Item71,Mushdoom Cap,キノコのカサ
+Item72,Bee Stinger,ハチの針
+Item73,Slime Chunk,スライムのかけら
+Item100,Silver,銀貨
+Item101,Journal,ジャーナル
+Item103,Escape Crystal,雲隠れの水晶
+Item104,Rusty Key,錆びたカギ
+Item110,Journal Entry 1,日記 その1
+Item111,Journal Entry 2,日記 その2
+# Item Descriptions (by ID),,
+ItemDesc1,A cheap and common material used to manage wounds.,安価でありふれた医療品。傷の手当てに使われる。
+ItemDesc3,A mushroom from Mordin Swamp. It has unique recovery properties.,モルデンの沼原産のキノコ。独特な回復効果を持っている。
+ItemDesc4,A slightly sour apple from the trees of Mordin Forest.,甘酸っぱいリンゴ。モルデンの森の木々に実る。
+ItemDesc8,Flavorful cheese formed from milk.,ヤギ乳で作られた風味豊かなチーズ。
+ItemDesc9,Fresh milk from Mordin goats.,モルデンのヤギが出した新鮮なミルク。
+ItemDesc18,A commonly brewed potion that restores some Life Energy.,ごく一般的に醸造されているポーション。体力がある程度回復する。
+ItemDesc19,A commonly brewed potion that restores some Mystic Energy,ごく一般的に醸造されているポーション。秘力がある程度回復する。
+ItemDesc20,A potion that restores some Life Energy.,ポーション。体力がそこそこ回復する。
+ItemDesc21,A potion that restores some Mystic Energy.,ポーション。秘力がそこそこ回復する。
+ItemDesc22,A strong potion that restores nearly all Life Energy.,強力なポーション。体力がほぼ全回復する。
+ItemDesc23,A strong potion that restores nearly all Mystic Energy.,強力なポーション。秘力がほぼ全回復する。
+ItemDesc24,A rare potion brewed and enchanted to recover all Life Energy.,醸造後にエンチャントが施された希少なポーション。体力が全回復する。
+ItemDesc25,A rare potion brewed and enchanted to recover all Mystic Energy.,醸造後にエンチャントが施された希少なポーション。秘力が全回復する。
+ItemDesc30,A firey bird's feather with divine properties.,火の鳥の羽。神聖な力を秘めている。
+ItemDesc31,A special substance that shrivels vines.,つるを枯れさせる特別な薬剤。
+ItemDesc50,An aromatic herb enhanced with magical properties.,香りの良いハーブ。魔法の力が込められている。
+ItemDesc51,"A small leaf with a strong, refreshing smell.",爽快な香りを強く漂わせる小さな葉。
+ItemDesc52,A reddish root filled with rich nutrients.,栄養豊富な赤みがかった根菜。
+ItemDesc53,A four-leafed plant known for good fortune.,四つ葉のクローバー。幸運をもたらすことで知られている。
+ItemDesc54,An herb with a soft leaves.,柔らかな葉をもつハーブ。
+ItemDesc55,An herb known for its needle-like leaves and strong flavor.,ハーブ。そのトゲのような葉と強烈な味が特徴。
+ItemDesc70,A clear crystal that can be imbued with mystic energy.,透明な水晶。秘術の力を籠めることができる。
+ItemDesc71,The cap of a Mushdoom from Mordin Swamp.,「モルデンの沼」で見つかるキノコのカサ。
+ItemDesc72,The stinger from a vicious Killer Bee.,キラービーがもつ殺傷力の高い針。
+ItemDesc73,"A chunk of slime, it has quite an unpleasant texture.",スライムの一部。身の毛もよだつ触り心地。
+ItemDesc103,A crystal that can temporarily confound some enemies.,水晶の一種。一時的に敵の目くらましが可能。
+ItemDesc104,A weathered iron key with an intricate bit.,古びたカギ。複雑な刻みが施されている。
+ItemDesc110,An entry from your journal.,日誌に書かれた記録。
+ItemDesc111,An entry from your journal.,日誌に書かれた記録。
+# Item Extra Descriptions,,
+ItemMenuUseOnly, (Can't be used in battle),（戦闘中は使用不可）
+ItemStat_Material,Can be sold or used in Synthesis,売却、および合成に使用できる
+ItemStat1,Recovers 20% Life Energy,体力を20%回復する
+ItemStat2,Recovers 33% Life Energy,体力を33%回復する
+ItemStat3,Recovers 25 Life Energy & 25 Mystic Energy,体力と秘力を25ずつ回復する
+ItemStat4,Recovers 50 Mystic Energy,秘力を50回復する
+ItemStat5,Recovers 150 Mystic Energy,秘力を150回復する
+ItemStat8,Rceovers 25% + 100 LE & applies Invigorate status,体力を25％ + 100回復し、「活性化」状態を付与する
+ItemStat9,Recovers 25% + 100 LE & applies Strong status,体力を25％ + 100回復し、「剛力」状態を付与する
+ItemStat18,Recovers 25% + 50 Life Energy,体力を25% + 50回復する
+ItemStat19,Recovers 25% + 50 Mystic Energy,秘力を25% + 50回復する
+ItemStat20,Recovers 50% + 100 Life Energy,体力を50% + 100回復する
+ItemStat21,Recovers 50% + 100 Mystic Energy,秘力を50% + 100回復する
+ItemStat22,Recovers 75% + 150 Life Energy,体力を75% + 150回復する
+ItemStat23,Recovers 75% + 150 Mystic Energy,秘力を75% + 150回復する
+ItemStat24,Recovers 100% Life Energy,体力を100%回復する
+ItemStat25,Recovers 100% Mystic Energy,秘力を100%回復する
+ItemStat30,Brings an ally back from the brink of death,すべての仲間を死の淵から救い出す
+ItemStat31,Removes [Bound] status,[拘束]状態を除去する
+ItemStat50,Gives one ally +5 Swiftness permanently,仲間一人の敏捷性を永続的に5増加させる
+ItemStat51,Gives one ally +5 Focus permanently,仲間一人の集中力を永続的に5増加させる
+ItemStat52,Gives one ally +5 Aptitude permanently,仲間一人の才覚を永続的に5増加させる
+ItemStat53,Gives one ally +5 Luck permanently,仲間一人の運を永続的に5増加させる
+ItemStat54,Gives one ally +50 Mystic Energy permanently,仲間一人の秘力を永続的に50増加させる
+ItemStat55,Gives one ally +50 Life Energy permanently,仲間一人の体力を永続的に50増加させる
+ItemStat103,Can be used to escape battle,使用すると戦闘から逃走できる
+ItemStat104,Opens a door in the Swamp Temple,「沼の神殿」の扉を開けることができる
+ItemStat110,Use to re-read this journal entry.,使用すると日誌の記録を読み返すことができる。
+ItemStat111,Use to re-read this journal entry.,使用すると日誌の記録を読み返すことができる。
+# Essence Names by ID,,
+Essence1,Vine,バイン
+Essence2,Earth,アース
+Essence3,Fire,ファイア
+Essence5,Lightning,ライトニング
+Essence6,Wind,ウインド
+Essence7,Ice,アイス
+Essence9,Heal,ヒール
+Essence13,Strike,ストライク
+Essence20,Channel,チャネル
+Essence44,Fork,フォーク
+# Essence Descriptions by ID,,
+EssDesc1,Summons nature's power.\nEnables magic that inflicts Terra element damage and [Bind] status.,自然の力を呼び起こす。\nテラ・エレメントダメージと[拘束]状態を付与する魔法が使用可能となる。
+EssDesc2,Split the earth and raise stone.\nEnables magic that inflicts Terra element damage.,大地を切り裂き、岩石を隆起させる。\nテラ・エレメントダメージを与える魔法が使用可能となる。
+EssDesc3,Conjure flames.\nEnables magic that inflicts Ignis element damage and [Burn] status.,炎を操る。\nイグニス・エレメントダメージと[炎上]状態を付与する魔法が使用可能となる。
+EssDesc5,Conduct and redirect electricity from the air.\nEnables magic that inflicts Ventus element damage and [Stun] status.,大気中の電気を操作し、狙いをつける。\nヴェントゥス・エレメントダメージと[麻痺]状態を付与する魔法が使用可能となる。
+EssDesc6,Direct the wind with great might.\nEnables magic that inflicts Ventus element damage.,大いなる力を持つ風を導く。\nヴェントゥス・エレメントダメージを与える魔法が使用可能となる。
+EssDesc7,Crystalize the air with intense cold.\nEnables magic that inflicts Aqua element damage and [Freeze] status.,超低温で大気を結晶化させる。\nアクア・エレメントダメージと[凍結]状態を与える魔法が使用可能となる。
+EssDesc9,Restore life energy and reverse ailments.\nEnables magic that can heal.,体力を回復させ、状態異常を取り去る。\n治療魔法が使用可能となる。
+EssDesc13,Strike multiple times.\nEnables abilities that hit a single target many times.,連撃を加える。\n単体の敵に複数回の攻撃を加えるアビリティが使用可能となる。
+EssDesc20,Pain becomes power.\nConverts some damage taken into Mystic Energy.,苦痛は力として花開く。\n受けたダメージの一部を秘力に変換する。
+EssDesc44,Spell division.\nAllows magic to hit multiple targets at the cost of reduced damage.,呪文を分割する。\n魔法が複数体のターゲットに命中するようになるが、ダメージが低下する。
+# Skill names by ID,,
+Skill1,Bind,バインド
+Skill2,Entwine,エントヴァイン
+Skill3,Overgrowth,オーバーグロウス
+Skill4,Tremor,トレマー
+Skill5,Quake,クエイク
+Skill6,Diverge,ダイヴァージ
+Skill7,Converge,コンヴァージ
+Skill8,Burn,バーン
+Skill9,Ignite,イグナイト
+Skill10,Blaze,ブレイズ
+Skill15,Shock,ショック
+Skill16,Bolt,ボルト
+Skill17,Storm,ストーム
+Skill18,Breeze,ブリーズ
+Skill19,Gust,ガスト
+Skill20,Squall,スコール
+Skill21,Tempest,テンペスト
+Skill22,Frost,フロスト
+Skill23,Freeze,フリーズ
+Skill24,Glaciation,グレシエーション
+Skill29,Mend,メンド
+Skill30,Recover,リカバリー
+Skill31,Mend All,メンドオール
+Skill32,Recover All,リカバリーオール
+Skill41,Dual Strike,二連撃
+Skill42,Triple Strike,三連撃
+Skill59,Channel I,チャネル I
+Skill60,Channel II,チャネル II
+Skill61,Channel III,チャネル III
+Skill100,Arcane Rebound I,アルケイン・リフレクト I
+Skill101,Arcane Rebound II,アルケイン・リフレクト II
+Skill102,Arcane Rebound III,アルケイン・リフレクト III
+Skill103,Arcane Rebound IV,アルケイン・リフレクト IV
+Skill104,Arcane Rebound V,アルケイン・リフレクト V
+Skill105,Mystic Conflux I,秘力転換 I
+Skill106,Mystic Conflux II,秘力転換 II
+Skill107,Mystic Conflux III,秘力転換 III
+Skill108,Mystic Conflux IV,秘力転換 IV
+Skill109,Mystic Conflux V,秘力転換 V
+Skill139,Fork I,フォーク I
+Skill140,Fork II,フォーク II
+Skill141,Fork III,フォーク III
+# Enemy Skills,,
+Skill150,Venom Strike,ヴェノム・ストライク
+Skill154,Diverge,ダイヴァージ
+Skill155,Vine Shield,ヴァイン・シールド
+# Skill descriptions by ID,,
+SkillDesc1,Entangles with vines. May inflict [Bind] status.,つるで絡みつく。一定確率で[拘束]状態を付与する。
+SkillDesc2,Esnares with more vines and plants. May inflict [Bind] status.,大量のつるや植物で絡みつく。一定確率で[拘束]状態を付与する。
+SkillDesc3,Thrashes with an overgrowth of plants. May inflict [Bind] status.,過成長した植物で打つ。一定確率で[拘束]状態を付与する。
+SkillDesc4,Shakes the ground.,足元を揺らす。
+SkillDesc5,Pulls the ground up and strikes with stone.,足元を隆起させ、岩石で攻撃する。
+SkillDesc6,Splits the ground apart.,地割れを発生させる。
+SkillDesc7,Raises massive rocks from the earth.,巨大な岩石を地中から隆起させる。
+SkillDesc8,Burns with fire. May inflict [Burn] status.,炎で燃やす。一定確率で[炎上]状態を付与する。
+SkillDesc9,Ignites with harsh flames. May inflict [Burn] status.,発火させ、猛火に包む。一定確率で[炎上]状態を付与する。
+SkillDesc10,Engulfs in a blaze. May inflict [Burn] status.,業火で飲み込む。一定確率で[炎上]状態を付与する。
+SkillDesc15,Channel with electricity. May inflict [Stun] status.,電撃を浴びせる。一定確率で[麻痺]状態を付与する。
+SkillDesc16,Summon a bolt of lightning. May inflict [Stun] status.,稲妻を呼び起こす。一定確率で[麻痺]状態を付与する。
+SkillDesc17,Strike with relentless thunder. May inflict [Stun] status.,情け容赦のない落雷で攻撃する。一定確率で[麻痺]状態を付与する。
+SkillDesc18,Conjures sharp blades of wind.,風で鋭刃を作り出す。
+SkillDesc19,Thrashes with a harsh whirlwind.,強烈な旋風で切り刻む。
+SkillDesc22,Encapsulates in ice crystals. May inflict [Freeze] status.,氷に封じ込める。一定確率で[凍結]状態を付与する。
+SkillDesc29,Restore some Life Energy.,体力をそこそこ回復させる。
+SkillDesc30,Restore more Life Energy.,体力をそれなりに回復させる。
+SkillDesc31,Restore a large amount of Life Energy.,体力を大幅に回復させる。
+SkillDesc32,Completely restore Life Energy.,体力を全回復させる。
+SkillDesc41,Strikes a single target twice.,単一のターゲットに二連撃を加える。
+SkillDesc42,Strikes a single target three times.,単一のターゲットに三連撃を加える。
+SkillDesc59,Converts 15% of damage taken into Mystic Energy.,被ダメージの15%を秘力に変換する。
+SkillDesc60,Converts 30% of damage taken into Mystic Energy.,被ダメージの30%を秘力に変換する。
+SkillDesc61,Converts 45% of damage taken into Mystic Energy.,被ダメージの45%を秘力に変換する。
+SkillDesc100,!N1's Awakening.\nTemporarily reflects some damage back at the attacker.,!N1が解放している。\n一時的に被ダメージの一部を攻撃者へ反射する。
+SkillDesc105,!N5's Awakening.\nStrikes all enemies with a flurry of advanced magic.,!N5が解放している。\nすべてのターゲットに高度な魔法を容赦なく浴びせる。
+SkillDesc139,"Mystic spells hit all targets, but damage is reduced by 50%.",秘術呪文がすべての敵をターゲットに取るが、ダメージが50%減少する。
+SkillDesc140,"Mystic spells hit all targets, but damage is reduced by 35%.",秘術呪文がすべての敵をターゲットに取るが、ダメージが35%減少する。
+SkillDesc141,"Mystic spells hit all targets, but damage is reduced by 15%.",秘術呪文がすべての敵をターゲットに取るが、ダメージが15%減少する。
+# Weapons,,
+Weapon1,Simple Sword,簡素な剣
+Weapon21,Dominia,ドミニア
+# Weapon Descriptions,,
+WeaponDesc1,A sword given to you by Baldric.\nIt's lightweight and surprisingly easy to use. Deals physical damage.,ボルドリックから与えられた剣。\n軽量で驚くほど扱いやすい。物理ダメージを与える。
+WeaponDesc21,Azel's personal staff of choice.\nIt allows him to channel Mystic Energy with ease. Deals mystic damage.,アゼルが好んで使う杖。\n秘力の伝導性に優れている。
+# Armor,,
+Armor1,Tunic,チュニック
+Armor2,Leather Armor,革の鎧
+Armor3,Leather Gloves,革のグローブ
+Armor16,Cloth Robe,布のローブ
+Armor17,Cloth Gloves,布のグローブ
+Armor21,Silver Bracelet,銀のブレスレット
+Armor22,Mystician's Robes,秘術師のローブ
+Armor23,Gold Braclet,金のブレスレット
+Armor37,Azel's Cloak,アゼルのマント
+Armor38,Azel's Cloak,アゼルのマント
+Armor41,Silver Ring,銀の指輪
+Armor42,Gold Ring,金の指輪
+Armor67,Anti-Poison Ring,防毒の指輪
+Armor74,Astral Pendant I,アストラル・ペンダント I
+Armor75,Astral Pendant II,アストラル・ペンダント II
+Armor76,Astral Pendant III,アストラル・ペンダント III
+Armor77,Astral Pendant IV,アストラル・ペンダント IV
+# Armor Descriptions,,
+ArmorDesc1,A simple piece of outerwear. Not very protective.,簡素な作りの上着。防御面にはあまり期待できない。
+ArmorDesc2,A lightweight armor that helps reduce physical damage.,軽量の防具。物理ダメージの軽減してくれる。
+ArmorDesc3,Easily worn gloves that increase dexterity.,たやすく着脱できるグローブ。手先が器用になる。
+ArmorDesc16,A breathable fabric that offers little physical protection.,通気性に優れた布。わずかだが物理的な防御力がある。
+ArmorDesc17,Simple gloves sewn together with a basic fabric.,簡素なグローブ。ありふれた生地が縫い付けられている。
+ArmorDesc21,A simple piece of jewelry that helps channel Mystic Energy.,華美ではない宝飾品。秘力の伝導を補助する働きがある。
+ArmorDesc22,Adorned robes sitched with mystic thread.,装飾が施されたローブ。秘術糸で縫い合わせられている。
+ArmorDesc23,A bracelet made of a metal with more conductive magic properties.,他の金属よりも魔力伝導性に優れている金のブレスレット。
+ArmorDesc37,"A gold-trimmed, blue cloak lined with soft red velvet.",金の縁取りがされた青いマント。\n裏地には柔らかな赤いベルベットが使われている。
+ArmorDesc38,"A gold-trimmed, blue cloak lined with soft red velvet.",金の縁取りがされた青いマント。\n裏地には柔らかな赤いベルベットが使われている。
+ArmorDesc41,A simple ring made of silver.,簡素な作りの銀の指輪。
+ArmorDesc42,A simple ring made of gold.,簡素な作りの金の指輪。
+ArmorDesc67,Grants immunity from [Poison] status.,[毒]状態への耐性が得られる。
+ArmorDesc74,A sought-after pendant with hidden power.,秘められた力を持つペンダント。需要が高い。
+ArmorDesc75,A sought-after pendant with hidden power.,秘められた力を持つペンダント。需要が高い。
+ArmorDesc76,A sought-after pendant with hidden power.,秘められた力を持つペンダント。需要が高い。
+ArmorDesc77,A sought-after pendant with hidden power.,秘められた力を持つペンダント。需要が高い。
+# Elements,,
+Element1,Terra,テラ
+Element2,Ventus,ヴェントゥス
+Element3,Ignis,イグニス
+Element4,Aqua,アクア
+# Element descriptions,,
+ElementDesc1,The power of Earth & Nature. Weak against Ventus.,大地と自然の力。弱点はヴェントゥス。
+ElementDesc2,The power of Wind & Thunder. Weak against Ignis.,風と雷の力。弱点はイグニス。
+ElementDesc3,The power of Fire & Lava. Weak against Aqua.,炎と溶岩の力。弱点はアクア。
+ElementDesc4,The power of Ice & Water. Weak against Terra.,氷と水の力。弱点はテラ。
+# States,,
+State1,Near Death,瀕死
+State2,Bound,拘束
+State3,Poisoned,毒
+State11,Stunned,麻痺
+State12,Frozen,凍結
+State13,Burning,炎上
+State36,Physical Reflect,物理反射
+State37,Magic Reflect,魔法反射
+State38,Physical Null,物理無効
+State39,Magical Null,魔法無効
+State45,Reflection,反射
+# State descriptions,,
+StateDesc1,Incapacitated. Cannot act or gain EXP.,無力化された状態。アクションを実行することも、EXPを獲得することもできない。
+StateDesc2,Afflicted nearly stops on the Time bar.,タイムバー上でほぼ停止状態となる。
+StateDesc3,Afflicted slowly loses LE,徐々に体力を消耗する。
+StateDesc11,Knocks the character back on the Time bar.,キャラクターをタイムバーに押し戻す。
+StateDesc12,Afflicted is slowed on the Time bar.,タイムバー上におけるキャラクターの速度が低下する。
+StateDesc13,Afflicted and attacker both take damage.,対象者、および攻撃者がダメージを受ける。
+StateDesc36,Reflects physical attacks,物理攻撃を反射する
+StateDesc37,Reflects magical attacks,魔法攻撃を反射する
+StateDesc38,Unaffected by physical attacks,物理攻撃を受け付けなくなる
+StateDesc39,Unaffected by magical attacks,魔法攻撃を受け付けなくなる
+StateDesc45,Reflects physical and mystic damage back at the attacker.,物理および秘術ダメージを攻撃者に反射する。
+# Enemy names (by ID),,
+Enemy1,Dummy,Dummy
+Enemy5,Mushdoom,マッシュドゥーム
+Enemy6,Mushdoom,マッシュドゥーム
+Enemy7,Killer Bee,キラービー
+Enemy8,Slime,スライム
+Enemy11,Soulich,スーリッチ
+# Enemy custom do nothing strings,,
+EnemyIdleText0,!N does nothing...,!Nは何もしていない…
+EnemyIdleText1,!N buzzes around.,!Nは飛び回っている。
+# Area names (Displays when changing areas),,
+Area_Astravia,Astravia,アストラヴィア
+Area_MordinForest,Mordin Forest,モルデンの森
+Area_MordinSwamp,Mordin Swamp,モルデンの沼
+Area_MordinDungeon,Earth Leyline,地の秘力路
+Area_MordinTown,Mordin Village,モルデンの村
+Area_Valica,Valica,ヴァリカ
+Area_Anatas,Anatas,アンアタス
+# Map names (by ID). Debug maps dont require names,,
+MapName_MordinTown,Mordin Village,モルデン村
+MapName_MordinShop,Mordin General Store,モルデン雑貨店
+MapName_TerraAstriChamber,Terra Astri Chamber,テラ・アストリの間
+MapName_TempleEntrance,Temple Entrance,神殿の入口
+MapName_MordinSwamp,Mordin Swamp,モルデンの沼
+MapName_MordinCave,Mordin Caves,モルデンの洞窟
+MapName_MordinForest,Mordin Forest,モルデンの森
+MapName_EarthDunB1,Earth Leyline [3F],地の秘力路 [B1]
+MapName_EarthDunF1,Earth Leyline [1F],地の秘力路 [1F]
+MapName_EarthDunF2,Earth Leyline [2F],地の秘力路 [2F]
+MapName_EarthDunF3,Earth Leyline [3F],地の秘力路 [3F]
